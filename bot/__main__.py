@@ -157,7 +157,7 @@ def start(update, context):
         buttons.buildbutton(f"{config_dict['START_BTN2_NAME']}", f"{config_dict['START_BTN2_URL']}")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
-        start_string = f'''This bot can mirror all your links to Google Drive!
+        start_string = f'''This bot can leech all your links!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
         if config_dict['PICS']:
@@ -206,7 +206,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/weebzone/WZML'>WeebZone</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b><a href='https://t.me/TN59botdevlopers'>MKWORLD</a></b> - The Ultimate Telegram Leech Bot to Upload Your File in Telegram
 Choose a help category:
 '''
 
@@ -279,7 +279,7 @@ help_string_telegraph_user = f'''
 <br><br>
 • <b>/{BotCommands.SpeedCommand[0]}</b>: Speedtest of server
 <br><br>
-• <b>/weebhelp</b>: Okatu helper
+• <b>/mkhelp</b>: Okatu helper
 '''
 
 help_user = telegraph.create_page(
